@@ -1,0 +1,39 @@
+body{
+    /* background-color: rgba(212, 187, 255, 1.00); */
+    font-family: Arial, sans-serif;
+    background-image: url("public/background-gradient-lights.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.heading-av{
+    text-align: center;
+}
+.container-av{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 5%;
+}
+.btn-av{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form.search-div {
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.weather-info-av {
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+#city{
+background-color: white;
+}
+#city:hover{
+   outline: white;
+}
